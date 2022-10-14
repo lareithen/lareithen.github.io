@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+.fs-13 {
+    font-size: 13px;
+}
+a {
+    color: white
+}
+a:hover {
+    color: gray;
+}
+.terminal {
+    font-family: 'Ubuntu Mono', monospace;
+}
+.terminal-user {
+    color: #7eda28;
+}
+.terminal-directory {
+    color: #4878c0;
+}
+
+#input::after {
+    content: '|';
+    animation: animate 0.8s linear infinite;
+}
+  
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.form-control, .form-control:focus {
+    background: transparent;
+    color: white
+}
