@@ -1,9 +1,9 @@
 function key_press_func(e){
     var keynum;
 
-    if(window.event) { // IE                  
+    if(window.event) {         
         keynum = e.keyCode;
-    } else if(e.which){ // Netscape/Firefox/Opera                 
+    } else if(e.which){
         keynum = e.which;
     }
 
